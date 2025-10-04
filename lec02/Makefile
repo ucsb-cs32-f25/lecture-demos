@@ -12,7 +12,6 @@ CPPFLAGS=--std=c++17
 
 vector: vector.cpp
 	${CXX} ${CPPFLAGS} -o vector $^
-# g++ --std=c++17 -o vector vector.cpp
 
 vectorCap: vectorCap.cpp
 	${CXX} ${CPPFLAGS} -o vectorCap $^	
