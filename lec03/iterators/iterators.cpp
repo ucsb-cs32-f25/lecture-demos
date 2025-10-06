@@ -15,7 +15,7 @@ int main(){
     *iter = 20;
 
     std::vector<int>::iterator iter2  = v.end();
-    *iter2 = 50;  // this doesn't update anything, since v.end() points to just past the last element
+    // *iter2 = 50;  // dereferencing the end() iterator results in undefined behavior
 
     // iterating through the elements
     for(auto iter  = v.begin(); iter != v.end(); iter++) {
